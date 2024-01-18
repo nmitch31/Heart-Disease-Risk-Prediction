@@ -5,24 +5,35 @@ This project revolves around predicting the risk of heart disease based on healt
 The primary goal is to assist medical professionals in predicting heart disease risk using common health records. Our analysis highlights key contributors to risk, enabling targeted preventive measures.
 # Findings
 Supervised Learning
+
 Logistic Regression
+
 The model excels at predicting patients not at risk (specificity 99.3%).
 Prior stroke, cigarettes per day, age, and systolic blood pressure are significant predictors.
 Recommendations include cautious risk prediction due to varying model accuracy.
+
 K Nearest Neighbors (kNN)
+
 Accurate at predicting patients not at risk (specificity 96.79%).
 Limited effectiveness in predicting at-risk patients (sensitivity 11.47%).
 Beneficial for excluding individuals not at risk.
+
 Naive Bayes
+
 Strong at predicting patients not at risk (accuracy 91.09%).
 Limited accuracy in predicting at-risk patients (sensitivity 25.94%).
 Valuable for ruling out heart disease risk.
+
 Classification Trees
+
 Age and systolic blood pressure are top predictors.
 Highly accurate in identifying patients not at risk (specificity 97.46%).
 Limited accuracy in predicting at-risk patients (sensitivity 12.12%).
+
 Unsupervised Learning
+
 Clustering
+
 Three distinct clusters based on smoking habits, diabetes, and stroke history.
 Cluster analysis reveals diabetes, prior stroke, and smoking as significant risk factors.
 Cluster 3, representing patients with diabetes, suggests the highest risk of heart disease.
