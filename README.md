@@ -6,25 +6,25 @@ The primary goal is to assist medical professionals in predicting heart disease 
 # Findings
 Supervised Learning
 
-Logistic Regression
+-Logistic Regression
 
 The model excels at predicting patients not at risk (specificity 99.3%).
 Prior stroke, cigarettes per day, age, and systolic blood pressure are significant predictors.
 Recommendations include cautious risk prediction due to varying model accuracy.
 
-K Nearest Neighbors (kNN)
+-K Nearest Neighbors (kNN)
 
 Accurate at predicting patients not at risk (specificity 96.79%).
 Limited effectiveness in predicting at-risk patients (sensitivity 11.47%).
 Beneficial for excluding individuals not at risk.
 
-Naive Bayes
+-Naive Bayes
 
 Strong at predicting patients not at risk (accuracy 91.09%).
 Limited accuracy in predicting at-risk patients (sensitivity 25.94%).
 Valuable for ruling out heart disease risk.
 
-Classification Trees
+-Classification Trees
 
 Age and systolic blood pressure are top predictors.
 Highly accurate in identifying patients not at risk (specificity 97.46%).
@@ -32,21 +32,27 @@ Limited accuracy in predicting at-risk patients (sensitivity 12.12%).
 
 Unsupervised Learning
 
-Clustering
+-Clustering
 
 Three distinct clusters based on smoking habits, diabetes, and stroke history.
 Cluster analysis reveals diabetes, prior stroke, and smoking as significant risk factors.
 Cluster 3, representing patients with diabetes, suggests the highest risk of heart disease.
 # Recommendations
-Caution in Predictions:
+
+-Caution in Predictions:
+
 Acknowledge model variations in predicting heart disease risk.
 Emphasize careful risk assessment, especially for at-risk patients.
-Intensive Blood Pressure Medication:
+
+-Intensive Blood Pressure Medication:
+
 Increase prescription of blood pressure medication for patients with high systolic blood pressure.
 Focus on Diabetes and Prior Stroke:
 Recognize the uncontrollable nature of diabetes and prior stroke.
 Direct attention to other contributing factors for patients with these characteristics.
-Research on Vaping:
+
+-Research on Vaping:
+
 Acknowledge the shift to vaping among younger generations.
 Propose extensive research on vaping implications for heart disease and overall health.
 # Conclusion
